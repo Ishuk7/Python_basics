@@ -1,0 +1,10 @@
+vowel = ['a','e','i','o','u']
+word = input()
+num = 0
+
+for i in word:
+    if i in vowel:
+        num = num + 1
+        
+print(num)
+#coded by khushi
