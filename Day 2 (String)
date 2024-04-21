@@ -1,0 +1,10 @@
+#Counting the number of occurances of a character in a string
+sentence = input("Enter the sentence here : ")
+search_c = input("Enter the character to be searched here : ")
+num = 0
+for i in sentence:
+    if i == search_c:
+        num = num + 1
+        
+print("Number of times character '", search_c, "' is in sentence is : ", num)
+//coded by khushi
