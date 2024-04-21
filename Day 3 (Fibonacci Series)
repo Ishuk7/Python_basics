@@ -1,0 +1,8 @@
+#Fibonacci Series
+num = int(input("Enter the length of fibonacci series : "))
+list1 = [0,1]
+for i in range(2,num):
+    list1.append(list1[i-1]+list1[i-2])
+    
+print("Fibonacci series : ",list1)
+#coded by khushi
